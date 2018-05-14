@@ -1,0 +1,72 @@
+.comments-container h3 {
+  letter-spacing: 1px;
+}
+
+.comments-container .add-comments {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+}
+
+.comments-container .add-comments label {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.comments-container .add-comments textarea {
+  min-height: 25vh;
+  min-width: 180px;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.comments-container .add-comments input {
+  width: 8%;
+  min-width: 87px;
+  height: 27px;
+  background-color: rgb(219, 221, 223);
+  border-radius: 4px;
+  font-weight: 600;
+  border: 2px solid rgb(108, 109, 109);
+  padding: 2px 7px 2px 7px;
+  transition: ease 1s;
+  color: rgb(85, 85, 85);
+  font-size: 0.8em;
+}
+
+.comments-container .add-comments input:hover {
+  background-color: rgb(141, 141, 252);
+  color: white;
+}
+
+.comments-list {
+  width: 80%;
+  margin-top: 27px;
+}
+
+.comments-list .single-comment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 3px;
+  padding: 7px;
+}
+
+.comments-container .single-comment .comment-header {
+  display: flex;
+}
+
+.comments-container .single-comment .comment-header .comment-user {
+  margin: 0 7px 0 0;
+  font-weight: 600;
+}
+
+.comments-container .single-comment .comment-header .comment-date {
+  font-size: 0.8em;
+  margin: 2px 7px 0 0;
+}

@@ -1,0 +1,124 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.login-container form {
+  width: 70%;
+  min-width: 200px;
+  min-height: 25vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(172, 226, 226, 0.342);
+  border-radius: 3px;
+  padding: 7px 12px 7px 12px;
+}
+
+.login-container .input-line {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.login-container .input-line label {
+  width: 100%;
+  min-width: 370px;
+  max-width: 500px;
+  text-align: left;
+  font-size: 0.9em;
+  font-weight: bolder;
+  margin: 7px 0 7px -12px;
+  letter-spacing: 1px;
+  color: rgb(48, 48, 48);
+}
+
+.login-container .input-line input {
+  width: 100%;
+  min-width: 350px;
+  max-width: 500px;
+  height: 24px;
+  border: 2px solid rgb(108, 109, 109);
+  border-radius: 5px;
+  padding: 2px 7px 2px 7px;
+  outline: none;
+}
+
+.login-container .input-button {
+  width: 100%;
+  min-width: 370px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.login-container .input-button input {
+  min-width: 87px;
+  height: 27px;
+  background-color: rgb(219, 221, 223);
+  border-radius: 4px;
+  font-weight: 600;
+  border: 2px solid rgb(108, 109, 109);
+  padding: 2px 7px 2px 7px;
+  transition: ease 1s;
+  color: rgb(85, 85, 85);
+  font-size: 0.7em;
+  margin: 7px 0 7px -9px;
+}
+
+.login-container .input-button input:hover {
+  background-color: rgb(141, 141, 252);
+  color: white;
+  font-size: 0.75em;
+}
+
+.condition-signIn p {
+  font-size: 1.1em;
+}
+
+.condition-signIn .signin-link {
+  text-decoration: none;
+  color: rgb(16, 116, 72);
+  transition: ease 1s;
+  margin: 0 0 0 7px;
+}
+
+.condition-signIn .signin-link:hover {
+  color: rgb(9, 66, 41);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1015px) {
+  .login-container .input-button {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .login-container {
+    margin-top: 40px;
+  }
+  .login-container .input-line input {
+    width: 90%;
+    min-width: 180px;
+  }
+  .login-container .input-button {
+    width: 90%;
+    min-width: 180px;
+    text-align: center;
+  }
+  .login-container .input-line label {
+    text-align: center;
+  }
+
+  .condition-signIn p {
+    font-size: 0.9em;
+  }
+}

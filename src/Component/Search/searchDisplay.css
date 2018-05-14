@@ -1,0 +1,18 @@
+.articles-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.articles-list-container h1 {
+  font-size: 3em;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 800px) {
+  .articles-list-container {
+    flex-direction: column;
+  }
+}

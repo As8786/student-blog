@@ -1,0 +1,121 @@
+.article-item-container {
+  width: 45%;
+  margin: auto;
+  min-height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 17px 2px 7px 2px;
+  position: relative;
+  background-color: rgb(221, 221, 221);
+  opacity: 0.9;
+}
+
+.article-item-container .article-category {
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  right: 3px;
+  width: 20%;
+  min-width: 120px;
+  min-height: 25px;
+  background-color: rgb(101, 101, 136);
+  font-weight: 400;
+  font-size: 1.1em;
+  letter-spacing: 0.4px;
+  color: whitesmoke;
+}
+
+.article-item-container .img-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.article-item-container .img-container .img-container-div {
+  width: 100%;
+  max-width: 500px;
+  height: 270px;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 3px;
+}
+
+.article-item-container .description-container {
+  width: 95%;
+  padding: 7px;
+  color: rgb(34, 34, 34);
+}
+
+.article-item-container .description-container .title-link {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.article-item-container .description-container .title-link p {
+  margin-bottom: 7px;
+  color: black;
+}
+
+.article-item-container .description-container .title-link p:hover {
+  transition: ease 0.5s;
+  color: rgb(99, 97, 97);
+}
+
+.article-item-container .description-container .article-date {
+  margin-top: 0px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.article-item-container .description-container .article-content {
+  font-size: 1em;
+  font-weight: 400;
+  height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-spacing: 0.5px;
+}
+
+.input-container input {
+  min-width: 87px;
+  height: 27px;
+  background-color: rgb(219, 221, 223);
+  border-radius: 4px;
+  font-weight: 600;
+  border: 2px solid rgb(108, 109, 109);
+  padding: 2px 7px 2px 7px;
+  transition: ease 1s;
+  color: rgb(85, 85, 85);
+  font-size: 0.9em;
+  margin: 7px 14px 7px 0px;
+}
+
+.input-container input:hover {
+  background-color: rgb(141, 141, 252);
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .article-item-container {
+    width: 80%;
+    height: auto;
+  }
+
+  .article-item-container .img-container {
+    width: 80%;
+  }
+
+  .article-item-container .description-container {
+    width: 90%;
+  }
+}

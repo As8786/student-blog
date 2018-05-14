@@ -1,0 +1,167 @@
+.navbar-container {
+  max-height: 18vh;
+  background-color: rgba(4, 36, 36, 0.342);
+  text-align: center;
+}
+
+.navbar-container .navbar-large-size {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0 4px 0;
+}
+
+.navbar-large-size .left-side {
+  width: 25%;
+  text-align: center;
+}
+
+.navbar-large-size .left-side input {
+  border: 1px solid rgb(110, 110, 110);
+  font-size: 0.7em;
+  font-weight: 600;
+  height: 27px;
+  width: 150px;
+  border-radius: 4px;
+  color: rgb(85, 85, 85);
+  background-color: rgb(219, 221, 223);
+  transition: ease 1s;
+}
+
+.navbar-large-size .left-side input:hover {
+  background-color: rgb(141, 141, 252);
+  color: white;
+  font-size: 0.75em;
+}
+
+.navbar-large-size .right-side {
+  width: 25%;
+  text-align: center;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-large-size .right-side .user-image {
+  background-size: 100% 100%;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  margin: 0 5px 0 5px;
+  border-radius: 500px;
+}
+
+.navbar-large-size .right-side i {
+  font-size: 1.2em;
+  color: azure;
+  transition: ease 1s;
+  margin: 0 17px 0 17px;
+}
+
+.navbar-large-size .right-side span {
+  color: rgb(85, 85, 85);
+  margin: 0 7px 0 17px;
+  font-size: 0.8em;
+}
+
+.navbar-large-size .right-side i:hover {
+  color: rgb(141, 141, 252);
+}
+
+.navbar-large-size .center {
+  width: 50%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  font-size: 1.4em;
+}
+
+.navbar-large-size .center h2 {
+  font-size: 1.4em;
+  margin: 12px 0 12px 0;
+}
+
+.navbar-container .responsive-navbar {
+  display: none;
+}
+
+.responsive-navbar {
+}
+
+.responsive-navbar .logo {
+  width: 90%;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  font-size: 1.4em;
+}
+
+.responsive-navbar .logo h2 {
+  margin: 12px 0 12px 0;
+}
+
+.responsive-navbar .menu-icon {
+  padding-left: 17px;
+  position: relative;
+}
+
+.responsive-navbar .menu-icon i {
+  font-size: 1.4em;
+  color: azure;
+}
+
+.responsive-navbar .menu-icon .link-list {
+  position: absolute;
+  width: 220px;
+  text-align: left;
+  padding: 0;
+  margin-top: 17px;
+  border: 1px solid grey;
+  background-color: rgba(255, 255, 255);
+  opacity: 0.9;
+}
+
+.responsive-navbar .menu-icon .link-list link {
+  text-decoration: none;
+}
+
+.responsive-navbar .menu-icon .link-list li {
+  list-style-type: none;
+  font-size: 0.9em;
+  margin: 12px 0 12px 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(58, 55, 55);
+  padding: 7px;
+}
+
+.responsive-navbar .menu-icon .link-list li:hover {
+  color: rgb(132, 206, 224);
+}
+
+.responsive-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+  h3 {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-container .navbar-large-size {
+    display: none;
+  }
+
+  .navbar-container .responsive-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+}

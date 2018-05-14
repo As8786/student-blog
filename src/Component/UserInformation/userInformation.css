@@ -1,0 +1,74 @@
+.user-information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-information-container .profil-information {
+  width: 40%;
+  min-width: 600px;
+  min-height: 40vh;
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  opacity: 0.85;
+  border: 2px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.user-information-container .profil-information .user-img {
+  background-size: 100% 100%;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 500px;
+}
+
+.user-information-container .profil-information .user-data h1 {
+  letter-spacing: 1px;
+}
+
+.user-information-container .profil-information .user-data h2 {
+  letter-spacing: 1px;
+}
+
+.user-information-container .profil-information .user-data input {
+  min-width: 87px;
+  height: 27px;
+  background-color: rgb(174, 176, 179);
+  border-radius: 4px;
+  font-weight: 600;
+  border: 2px solid rgb(108, 109, 109);
+  padding: 2px 7px 2px 7px;
+  transition: ease 1s;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  margin: 7px 0 7px 0;
+}
+
+.user-information-container .profil-information .user-data input:hover {
+  background-color: rgb(141, 141, 252);
+  color: white;
+}
+
+.users-articles-conatiner {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .users-articles-conatiner {
+    flex-direction: column;
+  }
+
+  .user-information-container .profil-information {
+    flex-direction: column;
+    width: 80%;
+    min-width: 270px;
+  }
+}

@@ -1,0 +1,45 @@
+.footer-container {
+  min-height: 10vh;
+  background-color: rgba(4, 36, 36, 0.342);
+  text-align: center;
+  margin-top: 27px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container h4 {
+  height: 50%;
+  font-weight: 200;
+  font-size: 2em;
+  letter-spacing: 7px;
+  color: #616161;
+  margin: 0 0 12px 0;
+  color: whitesmoke;
+}
+
+.icon-container {
+  padding-bottom: 20px;
+}
+
+.icon-container a {
+  margin: 12px;
+  color: inherit;
+  opacity: 0.77;
+  color: rgb(212, 209, 209);
+  transition: ease 1s;
+}
+
+.icon-container a:hover {
+  font-size: 2em;
+  opacity: 1;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-container {
+    height: auto;
+  }
+  .footer-container h4 {
+    margin-bottom: 17px;
+  }
+}

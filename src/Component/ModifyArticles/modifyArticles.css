@@ -1,0 +1,80 @@
+.add-articles-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.add-articles-container h1 {
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 3em;
+  color: rgb(54, 54, 54);
+  font-style: italic;
+  background-color: rgba(172, 226, 226, 0.342);
+}
+
+.add-articles-container form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(172, 226, 226, 0.342);
+  border-radius: 3px;
+  padding: 7px 12px 7px 12px;
+}
+
+.add-articles-container form label {
+  width: 70%;
+  text-align: left;
+  margin: 7px 0 7px 0;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+
+.add-articles-container form input {
+  width: 70%;
+  min-width: 200px;
+  max-width: 800px;
+  height: 24px;
+  border: 2px solid rgb(108, 109, 109);
+  border-radius: 5px;
+  padding: 2px 7px 2px 7px;
+  outline: none;
+  margin: 0 0 17px 0;
+}
+
+.add-articles-container form textarea {
+  width: 70%;
+  min-height: 100px;
+  border: 2px solid rgb(108, 109, 109);
+  border-radius: 5px;
+  padding: 2px 7px 2px 7px;
+}
+
+.add-articles-container form .input-button {
+  width: 10%;
+  min-width: 70px;
+  margin: 17px 0 17px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .add-articles-container form {
+    width: 90%;
+  }
+
+  .add-articles-container form label {
+    width: 90%;
+  }
+
+  .add-articles-container form input {
+    width: 90%;
+  }
+
+  .add-articles-container form textarea {
+    width: 90%;
+  }
+}
